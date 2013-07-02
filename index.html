@@ -36,6 +36,14 @@
 }(document, 'script', 'facebook-jssdk'));
 </script>
 
+<script>
+$('.scrollto').click(function() {
+    $('#' + $(this).text()).get(0).scrollIntoView();
+    $('#' + $(this).text())[0].scrollIntoView();
+});
+
+</script>
+
 <div id="slider">
 	<div id="templatemo_wrapper">
 
@@ -58,127 +66,147 @@
             </div> <!-- end of sidebar -->
 
             <div id="templatemo_content">
-            	<div class="scroll">
-	        		<div class="scrollContainer">
+            <div class="scroll">
+	        	<div class="scrollContainer">
 
-                    <div class="panel" id="home">
-                        <h1>S H I N E</h1>
+						<div class="panel" id="home">
+							<h1>S H I N E</h1>
 
-                        <p align="justify"><em>Brought you to by a passionate team of 37 students.</em></p>
+							<p align="justify"><em>Brought you to by a passionate team of 37 students.</em></p>
+							<p align="justify">Shine: A sensorial experience in the dark.</p>
 
-                      	<p align="justify">Shine: A sensorial experience in the dark.</p>
+							<div class="cleaner cleaner_h40"></div>
 
-                        <div class="cleaner cleaner_h40"></div>
+						   <iframe src="http://player.vimeo.com/video/69556940?autoplay=1" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 
-                       <iframe src="http://player.vimeo.com/video/69428704?autoplay=1" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe> <p><a href="http://vimeo.com/69428704">Shine Placeholder</a> on <a href="http://vimeo.com">Vimeo</a>.</p>
+						</div>
+						<!-- end of HOME -->
 
-                    </div>
-                    <!-- end of home -->
 
-                    <div class="panel" id="team" style="overflow:auto;">
+				 <div class="panel" id="team">
 
-                        <h1>ABOUT THE TEAM</h1>
-						<h4>MANAGEMENT</h4>
-							<ul>
-								<li>Félix Bélisle</li>
-								<li><a href="http://www.linkedin.com/in/kylekillian">Kyle Killian</a></li>
-							</ul>
+							<h1>ABOUT THE SHINE TEAM</h1>
+
+
+							<div id="catagories" position="fixed">
+								<a href="#art" target="names">Art</a>
+								<a href="#audio" target="names">Audio</a>
+								<a href="#design" target="names">Design</a>
+								<a href="#management" target="names">Management</a>
+								<a href="#programming" target="names">Programming</a>
+							</div>
 							<br>
-						<h4>DESIGN</h4>
-							<ul>
-								<li><a href="http://about.me/nathaniel.blumer">Nathaniel Blumer</a></li>
-								<li><a href="http://ca.linkedin.com/in/karegomes">Karen Gomes</a></li>
-								<li><a href="http://ca.linkedin.com/pub/adam-grenier/44/2b8/801">Adam Grenier</a></li>
-								<li><a href="http://ca.linkedin.com/in/tanyagrenier">Tanya Grenier</a></li>
-								<li><a href="http://ca.linkedin.com/in/ralphnakhle">Ralph Nakhle</a></li>
-								<li><a href="">Vincent Laforest</a></li>
-								<li><a href="http://www.linkedin.com/pub/andrew-witts/21/65a/b94">Andrew Witts</a></li>
-							</ul>
-							<br>
-						<h4>PROGRAMMING</h4>
-							<ul>
-								<li><a href="">Simon Baribeau</a></li>
-								<li><a href="http://www.linkedin.com/pub/anthony-blake/41/4b5/56b">Anthony Blake</a></li>
-								<li><a href="http://ca.linkedin.com/in/noahdayan">Noah Dayan</a></li>
-								<li><a href="http://mdehdashti.com">Mehrdad Dehdashti</a></li>
-								<li><a href="http://ca.linkedin.com/pub/marie-pier-drapeau/5a/34b/5a4">Marie-Pier Drapeau</a></li>
-								<li><a href="http://ca.linkedin.com/pub/alexandre-audette-génier/42/130/63b">Alexandre Audette Génier</a></li>
-								<li><a href="http://ca.linkedin.com/pub/christian-hamel/68/8a4/17">Christian Hamel</a></li>
-								<li><a href="http://www.linkedin.com/pub/jason-kanagaratnam/22/963/873">Jason Kanagaratnam</a></li>
-								<li><a href="http://ca.linkedin.com/pub/frédéric-ostiguy/48/5ba/a95">Frédéric Ostiguy</a></li>
-								<li><a href="http://ca.linkedin.com/pub/javier-pérez/62/175/73a">Javier Pérez</a></li>
-								<li><a href="http://ca.linkedin.com/pub/alston-tan/73/b89/423">Alston Tan</a></li>
-								<li><a href="http://ca.linkedin.com/pub/eric-tremblay/46/834/817">Eric Tremblay</a></li>
-								<li><a href="http://ca.linkedin.com/in/jeanfelixvallee">Jean-Félix Vallée</a></li>
-							</ul>
-							<br>
-                    	<h4>ART</h4>
-							<ul>
-								<li><a href="http://ca.linkedin.com/pub/marie-pier-biron/2b/4bb/2b6/en">Marie-Pier Biron</a></li>
-								<li><a href="http://Harryboltz.com">Harry Boltz III</a></li>
-								<li><a href="http://ca.linkedin.com/pub/remi-comtois/34/727/24a">Remi Comtois</a></li>
-								<li><a href="http://ca.linkedin.com/pub/pierre-fouilloux/39/592/30b">Pierre Fouilloux</a></li>
-								<li><a href="http://ca.linkedin.com/in/gaudetguillaume">Guillaume Gaudet</a></li>
-								<li><a href="http://ca.linkedin.com/pub/adam-lacharité/25/a90/4b4">Adam Lacharité</a></li>
-								<li><a href="http://ca.linkedin.com/pub/louis-philippe-laporte/54/5ba/457">Louis-Philippe Laporte</a></li>
-								<li><a href="http://ca.linkedin.com/in/antoinemprevost">Antoine Morin-Prévost</a></li>
-								<li><a href="http://ca.linkedin.com/in/hbpeng">Eileen Peng</a></li>
-								<li><a href="http://ca.linkedin.com/pub/alexandre-robert/41/aa8/b54">Alexandre Robert</a></li>
-								<li><a href="http://ca.linkedin.com/in/anthonyroy24">Anthony Roy</a></li>
-								<li><a href="http://ca.linkedin.com/pub/roy-sorto/26/8b3/227">Roy Sorto</a></li>
-								<li><a href="http://ca.linkedin.com/pub/alston-tan/73/b89/423">Alston Tan</a></li>
-								<li><a href="http://ca.linkedin.com/pub/simon-therrien/49/a90/479">Simon Therrien</a></li>
-								<li><a href="http://ca.linkedin.com/pub/myriam-thouin/19/5a0/5ba">Myriam Thouin</a></li>
-							</ul>
-					 	<h4>AUDIO</h4>
-							<ul>
-								<li><a href="http://ca.linkedin.com/in/noahdayan">Noah Dayan</a></li>
-								<li><a href="http://ca.linkedin.com/pub/hafid-feghouli/43/330/ba6">Hafid Feghouli</a></li>
-								<li><a href="http://ca.linkedin.com/pub/valentino-lercher/61/516/677">Valentino Lercher</a></li>
-							</ul>
-                    </div> <!-- end of about us -->
 
-                    <div class="panel" id="download">
-                        <h1>S H I N E : THE GAME</h1>
+							<div class="panel" id="names" style="overflow:auto" position="relative">
 
-						<div class="cleaner cleaner_h40"></div>
-						<br><br><br><br>
+								<a href="/images/Shine_team.jpg"> <img src="images/Shine_team.jpg" height='60%' width='100%'/> </a>
 
-                        <h3> Download the full game <a href="http://dfzone.net/SharedFiles/Shine_Release.exe" class="service_one">here</a>!</h3>
-						<br><br><br><br><br>
-						<br><br><br><br><br>
+								<h4><a id="management"> MANAGEMENT</a></h4>
+									<ul>
+										<li>Félix Bélisle</li>
+										<li><a href="http://www.linkedin.com/in/kylekillian">Kyle Killian</a></li>
+										<li>François Renouf</li>
+									</ul>
+									<br>
+								<h4> <a id="design">DESIGN</a></h4>
+									<ul>
+										<li><a href="ca.linkedin.com/in/nathanielblumer">Nathaniel Blumer</a></li>
+										<li><a href="http://ca.linkedin.com/in/karegomes">Karen Gomes</a></li>
+										<li><a href="http://ca.linkedin.com/pub/adam-grenier/44/2b8/801">Adam Grenier</a></li>
+										<li><a href="http://ca.linkedin.com/in/tanyagrenier">Tanya Grenier</a></li>
+										<li><a href="http://ca.linkedin.com/in/ralphnakhle">Ralph Nakhle</a></li>
+										<li><a href="http://www.linkedin.com/in/vincentlaforest">Vincent Laforest</a></li>
+										<li><a href="http://www.linkedin.com/pub/andrew-witts/21/65a/b94">Andrew Witts</a></li>
+									</ul>
+									<br>
+								<h4><a id="programming">PROGRAMMING</a></h4>
+									<ul>
+										<li><a href="">Simon Baribeau</a></li>
+										<li><a href="http://www.linkedin.com/pub/anthony-blake/41/4b5/56b">Anthony Blake</a></li>
+										<li><a href="http://ca.linkedin.com/in/noahdayan">Noah Dayan</a></li>
+										<li><a href="http://mdehdashti.com">Mehrdad Dehdashti</a></li>
+										<li><a href="http://ca.linkedin.com/pub/marie-pier-drapeau/5a/34b/5a4">Marie-Pier Drapeau</a></li>
+										<li><a href="http://ca.linkedin.com/pub/alexandre-audette-génier/42/130/63b">Alexandre Audette Génier</a></li>
+										<li><a href="http://ca.linkedin.com/pub/christian-hamel/68/8a4/17">Christian Hamel</a></li>
+										<li><a href="http://www.linkedin.com/pub/jason-kanagaratnam/22/963/873">Jason Kanagaratnam</a></li>
+										<li><a href="http://ca.linkedin.com/pub/frédéric-ostiguy/48/5ba/a95">Frédéric Ostiguy</a></li>
+										<li><a href="http://ca.linkedin.com/pub/javier-pérez/62/175/73a">Javier Pérez</a></li>
+										<li><a href="http://ca.linkedin.com/pub/alston-tan/73/b89/423">Alston Tan</a></li>
+										<li><a href="http://ca.linkedin.com/pub/eric-tremblay/46/834/817">Eric Tremblay</a></li>
+										<li><a href="http://ca.linkedin.com/in/jeanfelixvallee">Jean-Félix Vallée</a></li>
+									</ul>
+									<br>
 
-						<iframe style="border: 0; width: 100%; height: 120px;" src="http://bandcamp.com/EmbeddedPlayer/album=4283225050/size=medium/bgcol=ffffff/linkcol=0687f5/transparent=true/" seamless><a href="http://shinethegame.bandcamp.com/album/shine-the-game-soundtracks">Shine:The Game OST</a></iframe>
+								<h4><a id="art">ART</a></h4>
+									<ul>
+										<li><a href="http://ca.linkedin.com/pub/marie-pier-biron/2b/4bb/2b6/en">Marie-Pier Biron</a></li>
+										<li><a href="http://Harryboltz.com">Harry Boltz III</a></li>
+										<li><a href="http://ca.linkedin.com/pub/remi-comtois/34/727/24a">Remi Comtois</a></li>
+										<li><a href="http://ca.linkedin.com/pub/pierre-fouilloux/39/592/30b">Pierre Fouilloux</a></li>
+										<li><a href="http://ca.linkedin.com/in/gaudetguillaume">Guillaume Gaudet</a></li>
+										<li><a href="http://ca.linkedin.com/pub/adam-lacharité/25/a90/4b4">Adam Lacharité</a></li>
+										<li><a href="http://ca.linkedin.com/pub/louis-philippe-laporte/54/5ba/457">Louis-Philippe Laporte</a></li>
+										<li><a href="http://ca.linkedin.com/in/antoinemprevost">Antoine Morin-Prévost</a></li>
+										<li><a href="http://ca.linkedin.com/in/hbpeng">Eileen Peng</a></li>
+										<li><a href="http://ca.linkedin.com/pub/alexandre-robert/41/aa8/b54">Alexandre Robert</a></li>
+										<li><a href="http://ca.linkedin.com/in/anthonyroy24">Anthony Roy</a></li>
+										<li><a href="http://ca.linkedin.com/pub/roy-sorto/26/8b3/227">Roy Sorto</a></li>
+										<li><a href="http://ca.linkedin.com/pub/alston-tan/73/b89/423">Alston Tan</a></li>
+										<li><a href="http://ca.linkedin.com/pub/simon-therrien/49/a90/479">Simon Therrien</a></li>
+										<li><a href="http://ca.linkedin.com/pub/myriam-thouin/19/5a0/5ba">Myriam Thouin</a></li>
+									</ul>
 
-                    </div> <!-- end of services -->
+								<h4><a id="audio">AUDIO</a></h4>
+									<ul>
+										<li><a href="http://ca.linkedin.com/in/noahdayan">Noah Dayan</a></li>
+										<li><a href="http://ca.linkedin.com/pub/hafid-feghouli/43/330/ba6">Hafid Feghouli</a></li>
+										<li><a href="http://ca.linkedin.com/pub/valentino-lercher/61/516/677">Valentino Lercher</a></li>
+									</ul>
+							</div> <!-- end of NAMES' container -->
+						</div> <!-- end of TEAM -->
 
-                    <div class="panel" id="contactus">
-                    	<h1>CONTACT US </h1>
-                        <p>Questions or comments about the game? Feel free to let us know!</p>
+						<div class="panel" id="download">
+							<h1>S H I N E : THE GAME</h1>
 
-                        <div class="cleaner cleaner_h40"></div>
+							<div class="cleaner cleaner_h40"></div>
+							<br><br><br><br>
 
-                        <div id="contact_form">
-                            <form method="post" name="contact" action="html_form_send.php">
-                                <input type="hidden" name="post" value="Send" />
-                                <label for="name">Name:</label>
-                                <input type="text" id="name" name="name" class="required input_field" />
-                                <div class="cleaner_h10"></div>
-                                <label for="email">Email:</label>
-                                <input type="text" id="email" name="email" class="validate-email required input_field" />
-                                <div class="cleaner_h10"></div>
-                                <label for="text">Message:</label>
-                                <textarea id="text" name="text" rows="0" cols="0" class="required"></textarea>
-                                <div class="cleaner_h10"></div>
-                                <input type="submit" class="submit_btn float_l" name="submit" id="submit" value="Send" />
-                                <input type="reset" class="submit_btn float_r" name="reset" id="reset" value=" Reset " />
-                            </form>
-                        </div>
+							<h3> Download the full game <a href="http://dfzone.net/SharedFiles/Shine_Release.exe" class="service_one">here</a>!</h3>
+							<br><br><br><br><br>
+							<br><br><br><br><br>
 
-                    </div> <!-- end of contact us -->
+							<iframe style="border: 0; width: 100%; height: 120px;" src="http://bandcamp.com/EmbeddedPlayer/album=4283225050/size=medium/bgcol=ffffff/linkcol=0687f5/transparent=true/" seamless><a href="http://shinethegame.bandcamp.com/album/shine-the-game-soundtracks">Shine:The Game OST</a></iframe>
+
+						</div> <!-- end of DOWNLOAD -->
+
+
+						<div class="panel" id="contactus">
+							<h1>CONTACT US </h1>
+							<p>Questions or comments about the game? Feel free to let us know!</p>
+
+							<div class="cleaner cleaner_h40"></div>
+
+							<div id="contact_form">
+								<form method="post" name="contact" action="html_form_send.php">
+									<input type="hidden" name="post" value="Send" />
+									<label for="name">Name:</label>
+									<input type="text" id="name" name="name" class="required input_field" />
+									<div class="cleaner_h10"></div>
+									<label for="email">Email:</label>
+									<input type="text" id="email" name="email" class="validate-email required input_field" />
+									<div class="cleaner_h10"></div>
+									<label for="text">Message:</label>
+									<textarea id="text" name="text" rows="0" cols="0" class="required"></textarea>
+									<div class="cleaner_h10"></div>
+									<input type="submit" class="submit_btn float_l" name="submit" id="submit" value="Send" />
+									<input type="reset" class="submit_btn float_r" name="reset" id="reset" value=" Reset " />
+								</form>
+							</div>
+						</div> <!-- end of CONTACT -->
 
                     </div> <!-- end scrollContainer -->
 				</div>
+
             </div> <!-- end of content -->
 
             <div class="cleaner">s</div>
@@ -186,9 +214,9 @@
 
 
         <div id="templatemo_footer">
-<div class="fb-like" data-href="http://shine2013.github.io" data-send="false" data-layout="button_count" data-width="450" data-show-faces="false" data-font="arial" data-colorscheme="dark"></div>
-    		Template via <a href="http://www.templatemo.com" target="_parent">templatemo</a>
-<div class="fb-like" data-href="http://shine2013.github.io" data-send="false" data-layout="button_count" data-width="450" data-show-faces="false" data-font="arial" data-colorscheme="dark"></div>
+			<div class="fb-like" data-href="http://shine2013.github.io" data-send="false" data-layout="button_count" data-width="450" data-show-faces="false" data-font="arial" data-colorscheme="dark"></div>
+    		<a href="http://www.templatemo.com" target="_parent">templatemo</a>
+			<div class="fb-like" data-href="http://shine2013.github.io" data-send="false" data-layout="button_count" data-width="450" data-show-faces="false" data-font="arial" data-colorscheme="dark"></div>
 
             <div class="cleaner"></div>
 		</div>
