@@ -6,7 +6,7 @@
 #templatemo_wrapper {
 	width: 800px;
 	margin: 0 auto;
-	background: url(../images/templatemo_body.jpg) no-repeat top center;
+
 }
 
 #templatemo_social {
@@ -22,7 +22,7 @@
 }
 
 #templatemo_sidebar {
-	float: left;	
+	float: left;
 	width: 320px;
 }
 
